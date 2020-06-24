@@ -157,7 +157,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -702, y: 151.57}
-  m_SizeDelta: {x: 420.8, y: 421.35}
+  m_SizeDelta: {x: 420, y: 420}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90302973
 MonoBehaviour:
@@ -531,7 +531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103, y: 285.4}
+  m_AnchoredPosition: {x: 223, y: 284.72}
   m_SizeDelta: {x: 560.91, y: 153.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497514609
@@ -1557,7 +1557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103, y: 110}
+  m_AnchoredPosition: {x: 223, y: 114}
   m_SizeDelta: {x: 161.2, y: 121.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397379981
@@ -1727,6 +1727,7 @@ GameObject:
   - component: {fileID: 1710107654}
   - component: {fileID: 1710107656}
   - component: {fileID: 1710107655}
+  - component: {fileID: 1710107657}
   m_Layer: 5
   m_Name: InputDisplayText
   m_TagString: Untagged
@@ -1750,8 +1751,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: 151.57}
-  m_SizeDelta: {x: 277.9, y: 421.36}
+  m_AnchoredPosition: {x: -274, y: 151.57}
+  m_SizeDelta: {x: 420, y: 420}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710107655
 MonoBehaviour:
@@ -1871,6 +1872,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710107653}
   m_CullTransparentMesh: 0
+--- !u!114 &1710107657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710107653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fae07a26a0629a498476025708fbbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1734597016
 GameObject:
   m_ObjectHideFlags: 0

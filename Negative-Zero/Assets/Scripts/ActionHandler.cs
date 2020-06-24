@@ -16,7 +16,7 @@ public class ActionHandler : MonoBehaviour
 
     public void StoreText()
     {
-        currentList.text = input = inputField.text;
+        currentList.text = input = inputField.text.Trim();
     }
 
     public void GetRandom()
